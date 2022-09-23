@@ -14,7 +14,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will design and make a Crypto Wallet for a client who is local trader. The project will be about designing a digital ledger that helps her track the amount of the cryptocurrency, the transactions, along with useful statistics and is constructed using the software Python 3.10.7. It will take about 3 weeks to make and will be evaluated according to the criteria ———.
 
 For this project, the cryptocurrency used will be Cardano.
 
