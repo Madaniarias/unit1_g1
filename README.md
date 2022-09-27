@@ -25,6 +25,9 @@ The values of Cardano as of Friday, September 23 is around 65.64 Japanese yen.
 
 Justify the tools/structure of your solution
 
+The following arguments make python a good tool for the solution of this project:
+- 
+
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
