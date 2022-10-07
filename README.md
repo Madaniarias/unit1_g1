@@ -26,6 +26,7 @@ The values of Cardano as of Sunday, October 2 is around 62.33 Japanese yen.
 Justify the tools/structure of your solution
 
 The following arguments make python a good tool for the solution of this project:
+- It is a free software.
 - 
 
 ## Success Criteria
