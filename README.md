@@ -75,9 +75,9 @@ The following arguments make python a good tool for the solution of this project
 |5.       |
 
  ##Test Plan
-  | Test No | Type of Test                                                | Date                                                                                                 | Time estimate | Procedure | Expected Outcome |
+  | Test No | Type of Test                                                | Date                                                                                                 | Date | Procedure | Expected Outcome |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution  | 10min         | Sep 22                 | B         |
+| 1       | Functional: testing function validate_int_input                                         | Oct 9  | Open a file called test.py > import the function validate_int_input > ask the user for an input > print the input.         | It will print the input, which will be a number.                 | B         |
 | 2.      | Flow diagram login.  |   Created a flow diagram for the login system | 10 min | Sep 27 | B
 | 3.      | Code and test login  | Code and tested login system | 50 min | Sep 27 | C
 | 4.      | Test login　　　　　　| Login system runs             | 2 min  | Sep 27 | D
