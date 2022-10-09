@@ -2,7 +2,7 @@
 
 ![giphy](https://user-images.githubusercontent.com/111761417/194739829-e8c96274-ca8d-41d0-94b4-1601a1ad986e.gif)
 
-<sub>Illustration by Crypto　GIF</sub>
+<sub>Illustration by Crypto GIF</sub>
 
 # Criteria A: Planning
 
@@ -20,7 +20,7 @@ I will design and make a Crypto Wallet for a client who is local trader. The pro
 For this project, the cryptocurrency used will be Cardano.
 
 Cardano is one of the biggest cryptocurrencies by market cap. It’s designed to be a flexible, sustainable, and scalable blockchain platform for running smart contracts — which will allow the development of a wide range of decentralized finance apps, new crypto tokens, games, and more. Cardano’s goal is to be the most environmentally sustainable blockchain platform. It uses a unique proof-of-stake consensus mechanism called Ouroboros, as opposed to the energy-intensive proof-of-work system currently used by Bitcoin and Ethereum. (Ethereum is also moving to a proof-of-stake system via the ETH2 upgrade). Cardano was launched in September 2017 by Ethereum co-founder Charles Hoskinson, and aims to be a third-generation blockchain (or blockchain 3.0) project — building on top of the technology pioneered by Bitcoin (first gen) and Ethereum (second gen). Cardano’s goal is to be a highly scalable and energy-efficient smart contract platform. In the second quarter of 2021, smart contract functionality is scheduled to arrive on the Cardano platform. Developers have also announced that the blockchain will become compatible with Ethereum-based smart contracts later in the year — potentially allowing it to run a wide range of existing apps and allowing developers to work on Cardano projects using the familiar Solidity programming language ([1])(https://www.coinbase.com/learn/crypto-basics/what-is-cardano)
-The values of Cardano as of Sunday, October 2 is around 62.33 Japanese yen.
+The values of Cardano as of Sunday, October 9 is around 61.24 Japanese yen.
 
 1. What is Cardano? Coinbase. September 23, 2022. https://www.coinbase.com/learn/crypto-basics/what-is-cardano
 
@@ -44,8 +44,8 @@ The following arguments make python a good tool for the solution of this project
 ## System Diagram
 
 ![image](https://user-images.githubusercontent.com/111761417/194739407-aeb7a1a7-aad3-451c-a7a5-07efc3689de7.png)
-
-
+<sub>System Diagram is divided in Keyboard and Screen (Connected). Following by the computer (MacBook Air) and Processor (Dual-Core Intel Core i5 1.8GHz 8GB. Next, the Operating System (OS: MacOS 12.5 (21G72). For the software we are using Python 3.10.7. Lastly, inside the software we have 2 python files and 3 csv (comma separated value) files.<\sub>
+  
 ## Flow Diagrams
 
 ### FUNCTION VALIDATE_INT_INPUT
