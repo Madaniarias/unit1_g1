@@ -163,7 +163,7 @@ This piece of code prints the main menu after the user logs in. Then, while the 
 
     return month
 ```
-   This function is validating that the input entered by the user is a string that is within a certain list of strings. The assigned name for the function is "validate_month" and it will recieve a prompt in form of a string and will return it as a string as well. Inside the function there is unicodes for the color red and to end the color so we can make the ERROR message more noticeable and obvious to the user. Then, we assign the variable name "month" to the prompt given and use a while loop to ask the program that while the what got stored in the variable "month" is not a within the list of strings (months of the year), show an ERROR message to the user and, at the same time, ask once agian for input form the user. Lastly, we return "month" as a string.
+   This function is validating that the input entered by the user is a string that is within a certain list of strings. The assigned name for the function is validate_month and it will recieve a prompt in form of a string and will return it as a string as well. Inside the function there is unicodes for the color red and to end the color so we can make the ERROR message more noticeable and obvious to the user. Then, we assign the variable name "month" to the prompt given and use a while loop to ask the program that while the what got stored in the variable "month" is not a within the list of strings (months of the year), show an ERROR message to the user and, at the same time, ask once agian for input form the user. Lastly, we return "month" as a string.
  
  ### One use of the validate_month function in the Crypto wallet
  
