@@ -28,8 +28,8 @@ Justify the tools/structure of your solution
 
 The following arguments make python a good tool for the solution of this project:
 - It is a free software.
-- Python is cross-platform and will work on Windows, macOS, and Linux so it will be accesible form almost any computer.
-- Does not take much space and is easye to download (It can be download from their webpage in a matter of minutes).
+- Python is cross-platform and will work on Windows, macOS, and Linux so it will be accesible to download from almost any computer.
+- Does not take much space and it is easy and quick to download (It can be download from their webpage in a matter of minutes).
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
