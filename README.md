@@ -75,7 +75,7 @@ The following arguments make python a good tool for the solution of this project
 |5.       |
 
  ##Test Plan
-  | Test No | Type of Test                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
+  | Test No | Type of Test                                                | Date                                                                                                 | Time estimate | Procedure | Expected Outcome |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution  | 10min         | Sep 22                 | B         |
 | 2.      | Flow diagram login.  |   Created a flow diagram for the login system | 10 min | Sep 27 | B
