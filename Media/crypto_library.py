@@ -66,6 +66,7 @@ def validate_category(prompt:str)->str:
     category = category.lower()
     while not category.isalpha():
         category = input (f"{red}ERROR! The category must be written in letters (e.g. food).{prompt}{end_code}")
+    return category
 
 
 
