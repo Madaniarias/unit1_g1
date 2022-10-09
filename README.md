@@ -151,7 +151,7 @@ This piece of code prints the main menu after the user logs in. Then, while the 
                                    
  ### Validate_month
   
-  ```.py
+ ```.py
   def validate_month(prompt:str)->str:
     """..."""
     end_code = "\033[00m"
@@ -162,8 +162,7 @@ This piece of code prints the main menu after the user logs in. Then, while the 
         month = input (f"{red}ERROR! The month must be written with the first 3 letters of the month (e.g oct).{prompt}{end_code}\n")
 
     return month
-  
-  ```
+```
    This function is validating that the input entered by the user is a string that is within a certain list of strings. The assigned name for the function is "validate_month" and it will recieve a prompt in form of a string and will return it as a string as well. Inside the function there is unicodes for the color red and to end the color so we can make the ERROR message more noticeable and obvious to the user. Then, we assign the variable name "month" to the prompt given and use a while loop to ask the program that while the what got stored in the variable "month" is not a within the list of strings (months of the year), show an ERROR message to the user and, at the same time, ask once agian for input form the user. Lastly, we return "month" as a string.
  
  ### One use of the validate_month function in the Crypto wallet
@@ -193,9 +192,9 @@ This piece of code prints the main menu after the user logs in. Then, while the 
  ```
  In this piece of code we are establishing that, if option is equal to 1 then we will display the transaction of a specific month that the user wannts. We first ask for the user for the month and validate that the entry has the correct format used along the program with the function "validate_month", assigning the variable name "in_month". Then we read the data in the csv file "database.csv". Following that, we set that i is equal to 0 (helping us latter to skip the fisrt line in database.csv). To help create the lines for the chat we set heading as "-" multiplied by 24 to create the ilusion of a line. Later we use this to create a line at the top, the botton and to separate between the titles and the data. We print the tiltes in between the line that we created and then we say for every line in "crypto_data", if i is bigger than 0 (this will skip the first line in database.csv file), we will get rid of the line break with the .strip() and separe the values in month, amount and category by using the .split(","). Then, if the month entered by the user is in the month form the database we will print the category and amount for that transaction.
  
- ## Validate_category
+ ### Validate_category
  
- ```.py
+```.py
  #Validate category is a string
  def validate_category(prompt:str)->str:
     """..."""
@@ -206,8 +205,29 @@ This piece of code prints the main menu after the user logs in. Then, while the 
     while not category.isalpha():
         category = input (f"{red}ERROR! The category must be written in letters (e.g. food).{prompt}{end_code}")
     return category
- ```
+```
+
     This function is validating that the input entered by the user is a string. The assigned name for the function is "validate_category" and it will recieve a prompt in form of a string and will return it as a string as well. Inside the function there is unicodes for the color red and to end the color so we can make the ERROR message more noticeable and obvious to the user. Then, we assign the variable name "category" to the prompt given and use a while loop to ask the program that while the what got stored in the variable "category" is not a string, show an ERROR message to the user and, at the same time, ask once agian for input form the user. Lastly, we return "category" as a string.
+
+### One use of the validate_category function in the Crypto wallet
+
+```.py
+#OPTION 2: ENTER TRANSACTION
+    if option == 2:
+
+        #Asking input from the user
+        category = validate_category(f"\n{underline[0]}Enter the category:{end_code} ")
+        amount = validate_int_input(f"{underline[0]}Enter the amount:{end_code} ")
+        month = validate_month(f"{underline[0]}Enter the month (First 3 letters of month: e.g. oct):{end_code} ")
+
+        #Reading database.csv
+        with open("database.csv", "a") as file:
+            file.writelines([f"{month},{amount},{category}\n"])
+
+        #Explaining the user that the transaction was saved
+        print(f"\n{bold[1]}{emoji[3]}Transaction saved successfully!{emoji[3]}{end_code}\n")
+ ```
+ In this piece of code we can see the "validate_category" function as well as the "validate_int_input" and "validate_month" functions. Here, if the option is equal to two, then we will ask the user for three inputs: category, amount and month; validating with their respective validate functions. After that, we open and append in the file database.csv, adding a new line of data savinf the month, amount and category of the transaction made by the user. Laslty, implementing the good coding practices, a message letting the user know the transaction was sucessfully saved will print. This piece of code is a perfect example of why functions are so useful and important in this electronic ledger. This is because we are constanly asking for input from the user and, to make sure the program runs corrently, we need this input in the correct format. Becuase the user may make mistakes or misunderstand the instructions given, having functions that we are able to recall along the code multiple times to check the input is quite useful. This will help the program run much smoother and with less errors.
  
  ## Test Plan
   | Test No | Type of Test                                                |  Date                                                                                               | Procedure | Expected Outcome |  |
