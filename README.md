@@ -1,7 +1,7 @@
 # Crypto Wallet
 
-![](22ROOSE-master768.gif)  
-<sub>Illustration for Glenn Harvey</sub>
+![cardano-meme-funny-cardano](https://user-images.githubusercontent.com/111761417/194739670-ee0ee505-57ce-4f73-b249-a0cce53ec717.gif)
+<sub>Illustration by Cryptomkg</sub>
 
 # Criteria A: Planning
 
