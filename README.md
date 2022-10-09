@@ -194,7 +194,7 @@ This piece of code prints the main menu after the user logs in. Then, while the 
  
  ### Validate_category
  
-```.py
+  ```.py
  #Validate category is a string
  def validate_category(prompt:str)->str:
     """..."""
@@ -205,9 +205,9 @@ This piece of code prints the main menu after the user logs in. Then, while the 
     while not category.isalpha():
         category = input (f"{red}ERROR! The category must be written in letters (e.g. food).{prompt}{end_code}")
     return category
-```
+    ```
 
-    This function is validating that the input entered by the user is a string. The assigned name for the function is validate_category and it will recieve a prompt in form of a string and will return it as a string as well. Inside the function there is unicodes for the color red and to end the color so we can make the ERROR message more noticeable and obvious to the user. Then, we assign the variable name "category" to the prompt given and use a while loop to ask the program that while the what got stored in the variable "category" is not a string, show an ERROR message to the user and, at the same time, ask once agian for input form the user. Lastly, we return category as a string.
+This function is validating that the input entered by the user is a string. The assigned name for the function is validate_category and it will recieve a prompt in form of a string and will return it as a string as well. Inside the function there is unicodes for the color red and to end the color so we can make the ERROR message more noticeable and obvious to the user. Then, we assign the variable name "category" to the prompt given and use a while loop to ask the program that while the what got stored in the variable "category" is not a string, show an ERROR message to the user and, at the same time, ask once agian for input form the user. Lastly, we return category as a string.
 
 ### One use of the validate_category function in the Crypto wallet
 
