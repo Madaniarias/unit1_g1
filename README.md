@@ -80,6 +80,20 @@ The following arguments make python a good tool for the solution of this project
 |10.      | Beta-Testing | Ask audiece to test the program and give feedback | 20 min | Oct 9 | D
 |11.      | Fix errors.  | Fix errors pointed by the user during the beta-testing and do alpha-testing again | 1 hour | Oct 9 | D
 
+ # CRITERIA C: Development
+ ## Existing tools
+  - For loops
+  - Functions
+  - While loops
+  - If statements
+  - Input validation
+  - Unicodes (color/emojis/background/underline/bold)
+  - Reading/Appending/writting csv files
+  
+  ## Sources
+  Emoji Unicodes
+  - https://unicode.org/emoji/charts/full-emoji-list.html#1f609
+  
  ## Test Plan
   | Test No | Type of Test                                                |  Date                                                                                               | Procedure | Expected Outcome |  |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
