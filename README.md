@@ -27,13 +27,13 @@ The values of Cardano as of Sunday, October 9 is around 61.24 Japanese yen.
 Justify the tools/structure of your solution
 
 The following arguments make python a good tool for the solution of this project:
-- It is a free software.
-- Python is cross-platform and will work on Windows, macOS, and Linux so it will be accesible to download from almost any computer.
-- Does not take much space and it is easy and quick to download (It can be download from their webpage in a matter of minutes).
+- It is a free software, which means there will not be any additional cost for the user regarding software usage for the creating of the electronic ledger.
+- Python is cross-platform and will work on Windows, macOS, and Linux, which means that it will be accesible to download from almost any computer.
+- The software does not take much space and it is easy and quick to download (It can be download from their webpage in a matter of minutes).
 
 CODE OF THE PROGRAM IS IN THE MEDIA FILE ALONG WITH THE FUNCTIONALITY TEST.
- username: Sato
- Password: mssato
+username: Sato
+Password: mssato
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
@@ -44,10 +44,6 @@ CODE OF THE PROGRAM IS IN THE MEDIA FILE ALONG WITH THE FUNCTIONALITY TEST.
 6. The electronic ledger is protected by a password to gain access to the data.
 
 # Criteria B: Design
-
-CODE OF THE PROGRAM IS IN THE MEDIA FILE ALONG WITH THE FUNCTIONALITY TEST.
- username: Sato
- Password: mssato
 
 ## System Diagram
 
@@ -60,7 +56,7 @@ CODE OF THE PROGRAM IS IN THE MEDIA FILE ALONG WITH THE FUNCTIONALITY TEST.
 
 ![image](https://user-images.githubusercontent.com/111761417/194739562-326b85ad-57e6-4a8c-a67b-834aaf3a60ec.png)
   
-<sub>The function VALIDATE_INT_INPUT is used to validate the user is entering a number for the input.
+<sub>The function VALIDATE_INT_INPUT is used to validate the user is entering a number for the input. 
 
 ### FUNCTION VALIDATE_MONTH
 
@@ -77,10 +73,10 @@ CODE OF THE PROGRAM IS IN THE MEDIA FILE ALONG WITH THE FUNCTIONALITY TEST.
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution  | 10min         | Sep 22                 | B         |
-| 2.      | Flow diagram login.  |   Created a flow diagram for the login system | 10 min | Sep 27 | B
-| 3.      | Code and test login  | Code and tested login system | 50 min | Sep 27 | C
-| 4.      | Test login　　　　　　| Login system runs             | 2 min  | Sep 27 | D
-|5.       |Code validate functions | Create functions to validate user input | 3 hours | Oct 9 | C
+| 2.      | Flow diagram login.  |   Created a flow diagram for the login system to better see and plan the code of the login system | 10 min | Sep 27 | B
+| 3.      | Code and test login  | Coded a simple login system with a function called simple_login and tested it with a set password (mssato) and username (Sato). Add messages when you give acces or deny it. | 50 min | Sep 27 | C
+| 4.      | Test login and add message for user　　　　　　| Login system runs properly, displays message when acces is granted or denied.            | 2 min  | Sep 27 | D
+|5.       |Code validate functions | Create functions to validate user input: 1) validate_int_input: to validate that the input entered by the user is an integer. 2) validate_choice_input: to validate that the user input maches one of the option given that are in string format (options A to D) 3) validate_category: to validate that the user's input is a string. 4) validate_month: to validate the user's inut matched the month format used in the prgogram| 3 hours | Oct 9 | C
 |6.       | Flow diagram from functions | Created a flow diagram for the validate functions | 30 min | Oct 9 | B
 |7.       | Code menus for options | Code a menu that displays the options to the user after login | 30 min | Oct 9 | C
 |8.       | Code options form the menu | Code each option from the menu so when the user selects it, it runs in the terminal | 10 hours | Oct 9 | C
