@@ -75,7 +75,7 @@ The following arguments make python a good tool for the solution of this project
 |5.       |
 
  ## Test Plan
-  | Test No | Type of Test                                                | Date                                                                                                 | Date | Procedure | Expected Outcome |
+  | Test No | Type of Test                                                |                                                                                                 | Date | Procedure | Expected Outcome |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Functional: testing function validate_int_input                                         | Oct 9  | Open a file called test.py > import the function validate_int_input > ask the user for an input > print the input.         | It will print the input, which will be a number.                 |          |
 | 2.      | Functional: testing function validate_choice_input  |   Oct 9 | Open a file called test2.py > import the function validate_choice_input > ask the user for an input > print the input. | It will print the input, which will be a letter. | 
