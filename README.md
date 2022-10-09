@@ -72,4 +72,13 @@ The following arguments make python a good tool for the solution of this project
 | 2.      | Flow diagram login.  |   Created a flow diagram for the login system | 10 min | Sep 27 | B
 | 3.      | Code and test login  | Code and tested login system | 50 min | Sep 27 | C
 | 4.      | Test login　　　　　　| Login system runs             | 2 min  | Sep 27 | D
+|5.       |
+
+##Test Plan
+| Test No | Type of test                                                | Date                                                                                                 | Procedure | Expected outcome |
+|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1.      | Functional: testing function validate_int_input         | Open a file called test.py > import the function validate_int_input > ask the user for an input > print the input.         | It will print the input, which will be a number.               | Oct 9        
+| 2.      | Functional: testing function validate_choice_input  |   Open a file called test2.py > import the function validate_choice_input > ask the user for an input > print the input. | It will print the input, which will be a letter. | Oct 9
+| 3.      | Functional: testing function simple_login | Open a file called test3.py > import the function single_login > ask the user for an username and password > grant or deny access | Enter correct username and password will grant access, enter incorrect username and password will deny access| Oct9
+| 4.      | Non-Functional: Capabilty for the user to understand the instructions of the program　　　　　|  Open crypto_wallet.py > aske the user to run it for 5 minutes > see how far it gets to use it.    | The user will use at least 5 out of options  | Oct 9 | 
 
