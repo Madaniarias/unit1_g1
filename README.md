@@ -105,6 +105,67 @@ Password: mssato
   Emoji Unicodes
   - https://unicode.org/emoji/charts/full-emoji-list.html#1f609
   
+ ## FUNCTIONS
+ Some of the main function running in the Crypto Wallet are:
+ 
+  ### Validate_int_input
+  
+  ```.py
+  def validate_int_input(prompt:str)->int:
+    end_code = "\033[00m"
+    red = "\033[0;31m"
+    num = input (prompt)
+    while not num.isdigit():
+        num = input (f"{red}ERROR! Enter a number (e.g. 4).\n{prompt}{end_code}")
+
+    return int(num)
+  ```
+  This function is validating that the input entered by the user is an integer. The assigned name for the function is "validate_int_input" and it will recieve a prompt in form of a str but will return an integer. Inside the function there is unicodes for the color red and to end the color so we can make the ERROR message more noticeable and obvious to the user. Then, we assign the variable name "num" to the prompt given and use a while loop to ask the program that while the what got stored in the variable "num" is not a number, show an ERROR message to the user and, at the same time, ask once agian for input form the user. Lastly, we return "num" as an integer.
+  
+### Some of the uses of the validate_int_input function in the Crypto wallet
+  ```.py 
+#MAIN OPTION MENU
+  
+#Printing menu of options for the user
+menu_initial = f"""{colors[5]}1. I want to learn more about Cardano
+2. Enter transaction
+3. Withdrawn transaction
+4. My past transactions
+5. Statistics
+6. Current balance
+7. More about the author
+8. exit
+{end_code}"""
+
+option = -1
+# OPTION 8: EXIT
+while option != 8:
+    # validating user's input calling the function validate_int_input from crypto_library
+    option = validate_int_input(f"{background[4]}{'Options'.center(50)}{end_code}\n{menu_initial}{background[3]}Please enter an option [1-8]:{end_code}　")
+    while option > 8 or option < 1:
+        option = validate_int_input(f"{colors[1]}ERROR! {option} is incorrect.{end_code}\n{'Options'.center(50)}\n{menu} Please enter an option [1-8]: {end_code}")
+ ```
+In this occassion we are validating the users input with the function validate_int_input to make sure that he is indeed entereing a number between the range 1 to 8. We are using the function not only when we first ask to select an option but, after the while loop, it will again validate the users input.
+In this piece of code we are also incorporating the use of the while loop to create an exit option that will allow the user to exit the program whenever they want to.
+This piece of code prints the main menu after the user logs in. Then, while the option is not 8, we are storing in the variable name "option" the input from the user ans uusing the validate_int_input function to check if it is an integer. Lastly, while the user inputs a number out of teh range 1-8, an error message will show asking to try again and validating once again the input from the user.
+                                   
+ ### Validate_month
+  
+  ```.py
+  def validate_month(prompt:str)->str:
+    """..."""
+    end_code = "\033[00m"
+    red = "\033[0;31m"
+    month = input(prompt)
+    month = month.lower()
+    while not month in ["jan", "feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]:
+        month = input (f"{red}ERROR! The month must be written with the first 3 letters of the month (e.g oct).{prompt}{end_code}\n")
+
+    return month
+  
+  ```
+ 
+  
  ## Test Plan
   | Test No | Type of Test                                                |  Date                                                                                               | Procedure | Expected Outcome |  |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
