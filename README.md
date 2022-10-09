@@ -75,10 +75,10 @@ The following arguments make python a good tool for the solution of this project
 |5.       |Code validate functions | Create functions to validate user input | 3 hours | Oct 9 | C
 |6.       | Flow diagram from functions | Created a flow diagram for the validate functions | 30 min | Oct 9 | B
 |7.       | Code menus for options | Code a menu that displays the options to the user after login | 30 min | Oct 9 | C
-|8.       | Code options form the menu | Code each option from the menu so when the user selects it, it runs in the terminal | 10 hours | C
-|9.       | Alpha-Testig  | Test every opion from the menu and look for mistakes that may be causing a bad experience to the user | 5 min | D
-|10.      | Beta-Testing | Ask audiece to test the program and give feedback | 20 min | D
-|11.      | Fix errors.  | Fix errors pointed by the user during the beta-testing and do alpha-testing again | 1 hour | D
+|8.       | Code options form the menu | Code each option from the menu so when the user selects it, it runs in the terminal | 10 hours | Oct 9 | C
+|9.       | Alpha-Testig  | Test every opion from the menu and look for mistakes that may be causing a bad experience to the user | 5 min | Oct 9 | D
+|10.      | Beta-Testing | Ask audiece to test the program and give feedback | 20 min | Oct 9 | D
+|11.      | Fix errors.  | Fix errors pointed by the user during the beta-testing and do alpha-testing again | 1 hour | Oct 9 | D
 
  ## Test Plan
   | Test No | Type of Test                                                |  Date                                                                                               | Procedure | Expected Outcome |  |
