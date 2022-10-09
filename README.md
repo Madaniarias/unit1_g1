@@ -77,12 +77,14 @@ Password: mssato
 | 3.      | Code and test login  | Coded a simple login system with a function called simple_login and tested it with a set password (mssato) and username (Sato). Add messages when you give acces or deny it. | 50 min | Sep 27 | C
 | 4.      | Test login and add message for user　　　　　　| Login system runs properly, displays message when acces is granted or denied.            | 2 min  | Sep 27 | D
 |5.       |Code validate functions | Create functions to validate user input: 1) validate_int_input: to validate that the input entered by the user is an integer. 2) validate_choice_input: to validate that the user input maches one of the option given that are in string format (options A to D) 3) validate_category: to validate that the user's input is a string. 4) validate_month: to validate the user's inut matched the month format used in the prgogram| 3 hours | Oct 9 | C
-|6.       | Flow diagram from functions | Created a flow diagram for the validate functions | 30 min | Oct 9 | B
-|7.       | Code menus for options | Code a menu that displays the options to the user after login | 30 min | Oct 9 | C
-|8.       | Code options form the menu | Code each option from the menu so when the user selects it, it runs in the terminal | 10 hours | Oct 9 | C
-|9.       | Alpha-Testig  | Test every opion from the menu and look for mistakes that may be causing a bad experience to the user | 5 min | Oct 9 | D
-|10.      | Beta-Testing | Ask audiece to test the program and give feedback | 20 min | Oct 9 | D
-|11.      | Fix errors.  | Fix errors pointed by the user during the beta-testing and do alpha-testing again | 1 hour | Oct 9 | C
+|6.       | Flow diagram for validate functions | Created a flow diagram for the validate functions | 30 min | Oct 9 | B
+|7.       | Create other functions | Create author function: to display information about the author of the program | 5 min | Oct 9 | C
+|8.       | Code menus for options | Code a menus that display the options to the user after login so it can be easy to identify what the user wants to do| 30 min | Oct 9 | C
+|9.       | Code options form the menu | Code each option from the menu so when the user selects it, it runs in the terminal what the user wants to do | 10 hours | Oct 9 | C
+|10.       | Alpha-Testig  | Test every opion from the menu and look for mistakes that may be causing a bad experience to the user | 5 min | Oct 9 | D
+|11.      | Beta-Testing | Ask external person to test the program and give feedback. It was tested by some classmates and housemates. Feedback: Print menu again, more colors, add emojis. | 20 min | Oct 9 | D
+|12.      | Fix errors.  | Fix errors pointed by the user during the beta-testing and do alpha-testing again | 1 hour | Oct 9 | C
+|13.      | Alpha-testing again | Test the porgram again to check it is running anf the issues pointed in the beta-testing were fixed | 1 hour | Oct 9 | D
 
  # CRITERIA C: Development
  
