@@ -73,4 +73,3 @@ The following arguments make python a good tool for the solution of this project
 | 3.      | Code and test login  | Code and tested login system | 50 min | Sep 27 | C
 | 4.      | Test login　　　　　　| Login system runs             | 2 min  | Sep 27 | D
 
-
