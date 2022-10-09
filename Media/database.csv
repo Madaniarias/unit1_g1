@@ -1,0 +1,10 @@
+month,amount,category
+oct,30,travel
+sep,40,food
+oct,60,car
+oct,45,travel
+oct,30,food
+sep,-45,car
+nov,35,None
+sep,34,None
+nov,-56,travel
