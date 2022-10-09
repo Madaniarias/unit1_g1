@@ -78,7 +78,7 @@ The following arguments make python a good tool for the solution of this project
 |8.       | Code options form the menu | Code each option from the menu so when the user selects it, it runs in the terminal | 10 hours | Oct 9 | C
 |9.       | Alpha-Testig  | Test every opion from the menu and look for mistakes that may be causing a bad experience to the user | 5 min | Oct 9 | D
 |10.      | Beta-Testing | Ask audiece to test the program and give feedback | 20 min | Oct 9 | D
-|11.      | Fix errors.  | Fix errors pointed by the user during the beta-testing and do alpha-testing again | 1 hour | Oct 9 | D
+|11.      | Fix errors.  | Fix errors pointed by the user during the beta-testing and do alpha-testing again | 1 hour | Oct 9 | C
 
  # CRITERIA C: Development
  ## Existing tools
