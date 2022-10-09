@@ -27,7 +27,8 @@ Justify the tools/structure of your solution
 
 The following arguments make python a good tool for the solution of this project:
 - It is a free software.
-- 
+- Python is cross-platform and will work on Windows, macOS, and Linux so it will be accesible form almost any computer.
+- Does not take much space and is easye to download (It can be download from their webpage in a matter of minutes).
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
@@ -41,11 +42,23 @@ The following arguments make python a good tool for the solution of this project
 
 ## System Diagram
 
-![image](https://user-images.githubusercontent.com/111761417/191666873-2236e585-3bd6-49b4-8c8b-0e138f51e274.png)
+![image](https://user-images.githubusercontent.com/111761417/194739407-aeb7a1a7-aad3-451c-a7a5-07efc3689de7.png)
 
 
 ## Flow Diagrams
 
+### FUNCTION VALIDATE_INT_INPUT
+
+![image](https://user-images.githubusercontent.com/111761417/194739562-326b85ad-57e6-4a8c-a67b-834aaf3a60ec.png)
+
+### FUNCTION VALIDATE_MONTH
+
+![image](https://user-images.githubusercontent.com/111761417/194739540-9d33d699-437c-4f3f-9f73-c0e3462654bf.png)
+
+### FUNCTION_SIMPLE_LOGIN
+
+![image](https://user-images.githubusercontent.com/111761417/194739593-194266e3-b51f-4d49-a832-80487fe5e613.png)
+![image](https://user-images.githubusercontent.com/111761417/194739615-a0a8327e-3976-43a0-8a1d-4cf479d42670.png)
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
