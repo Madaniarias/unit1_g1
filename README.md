@@ -44,22 +44,26 @@ The following arguments make python a good tool for the solution of this project
 ## System Diagram
 
 ![image](https://user-images.githubusercontent.com/111761417/194739407-aeb7a1a7-aad3-451c-a7a5-07efc3689de7.png)
-<sub>System Diagram is divided in Keyboard and Screen (Connected). Following by the computer (MacBook Air) and Processor (Dual-Core Intel Core i5 1.8GHz 8GB. Next, the Operating System (OS: MacOS 12.5 (21G72). For the software we are using Python 3.10.7. Lastly, inside the software we have 2 python files and 3 csv (comma separated value) files.<\sub>
+<sub>System Diagram is divided in Keyboard and Screen (Connected). Following by the computer (MacBook Air) and Processor (Dual-Core Intel Core i5 1.8GHz 8GB. Next, the Operating System (OS: MacOS 12.5 (21G72). For the software we are using Python 3.10.7. Lastly, inside the software we have 2 python files and 3 csv (comma separated value) files.
   
 ## Flow Diagrams
 
 ### FUNCTION VALIDATE_INT_INPUT
 
 ![image](https://user-images.githubusercontent.com/111761417/194739562-326b85ad-57e6-4a8c-a67b-834aaf3a60ec.png)
+  
+<sub>The function VALIDATE_INT_INPUT is used to validate the user is entering a number for the input.
 
 ### FUNCTION VALIDATE_MONTH
 
 ![image](https://user-images.githubusercontent.com/111761417/194739540-9d33d699-437c-4f3f-9f73-c0e3462654bf.png)
+<sub>The function VALIDATE_MONTH is used to validate the user is entering a the month in the correct format for the input.
 
-### FUNCTION_SIMPLE_LOGIN
-
+### FUNCTION SIMPLE_LOGIN
+  
 ![image](https://user-images.githubusercontent.com/111761417/194739593-194266e3-b51f-4d49-a832-80487fe5e613.png)
 ![image](https://user-images.githubusercontent.com/111761417/194739615-a0a8327e-3976-43a0-8a1d-4cf479d42670.png)
+<sub>The function SIMPLE_LOGIN is used to grant o deny access the user validate the user and password they enter for the input.
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
