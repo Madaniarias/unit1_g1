@@ -1,7 +1,8 @@
 # Crypto Wallet
 
-![cardano-meme-funny-cardano](https://user-images.githubusercontent.com/111761417/194739670-ee0ee505-57ce-4f73-b249-a0cce53ec717.gif)
-<sub>Illustration by Cryptomkg</sub>
+![giphy](https://user-images.githubusercontent.com/111761417/194739829-e8c96274-ca8d-41d0-94b4-1601a1ad986e.gif)
+
+<sub>Illustration by Crypto　GIF</sub>
 
 # Criteria A: Planning
 
