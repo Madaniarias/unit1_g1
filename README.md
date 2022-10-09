@@ -36,7 +36,7 @@ The following arguments make python a good tool for the solution of this project
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. The electronic ledger displays records of transactions by month.
-5. The electronic ledger diplays month to month to statistics: max income value, minumun balance, mean income.
+5. The electronic ledger diplays current mean income as of last transaction made.
 6. The electronic ledger is protected by a password to gain access to the data.
 
 # Criteria B: Design
