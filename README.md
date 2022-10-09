@@ -31,6 +31,10 @@ The following arguments make python a good tool for the solution of this project
 - Python is cross-platform and will work on Windows, macOS, and Linux so it will be accesible to download from almost any computer.
 - Does not take much space and it is easy and quick to download (It can be download from their webpage in a matter of minutes).
 
+CODE OF THE PROGRAM IS IN THE MEDIA FILE ALONG WITH THE FUNCTIONALITY TEST.
+ username: Sato
+ Password: mssato
+
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
@@ -40,6 +44,10 @@ The following arguments make python a good tool for the solution of this project
 6. The electronic ledger is protected by a password to gain access to the data.
 
 # Criteria B: Design
+
+CODE OF THE PROGRAM IS IN THE MEDIA FILE ALONG WITH THE FUNCTIONALITY TEST.
+ username: Sato
+ Password: mssato
 
 ## System Diagram
 
@@ -81,6 +89,11 @@ The following arguments make python a good tool for the solution of this project
 |11.      | Fix errors.  | Fix errors pointed by the user during the beta-testing and do alpha-testing again | 1 hour | Oct 9 | C
 
  # CRITERIA C: Development
+ 
+ CODE OF THE PROGRAM IS IN THE MEDIA FILE ALONG WITH THE FUNCTIONALITY TEST.
+ username: Sato
+ Password: mssato
+  
  ## Existing tools
   - For loops
   - Functions
